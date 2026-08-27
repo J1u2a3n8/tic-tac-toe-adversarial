@@ -1,6 +1,6 @@
 # tic-tac-toe-adversarial
 
-> Minimax en Tic-Tac-Toe
+> Adversarial Search: Minimax with Alpha-Beta Pruning
 
 ![Language](https://img.shields.io/github/languages/top/J1u2a3n8/tic-tac-toe-adversarial)
 ![License](https://img.shields.io/github/license/J1u2a3n8/tic-tac-toe-adversarial)
@@ -8,24 +8,24 @@
 ![Stars](https://img.shields.io/github/stars/J1u2a3n8/tic-tac-toe-adversarial?style=social)
 ![Issues](https://img.shields.io/github/issues/J1u2a3n8/tic-tac-toe-adversarial)
 
-## 📋 Descripción
+## Description
 
-Proyecto ML/Data Science con implementación desde cero de algoritmos. Migrado, historial reescrito, documentado para portfolio.
+Implementation of Minimax algorithm with Alpha-Beta pruning for Tic-Tac-Toe. Includes iterative deepening, transposition tables, and heuristic evaluation functions. Demonstrates game AI fundamentals.
 
-## 🏗️ Arquitectura
+## Architecture
 
-Notebook-based: Exploratory -> Preprocessing -> Modeling -> Evaluation
+Game Tree: State → Generate Moves → Evaluate → Minimax(Alpha, Beta) → Best Move
 
-## 🚀 Inicio Rápido
+## Quick Start
 
-### Prerrequisitos
+### Prerequisites
 
 Python 3.10+, pip/poetry, Jupyter Lab
 
-### Instalación
+### Installation
 
 ```bash
-# Clonar
+# Clone
 git clone https://github.com/J1u2a3n8/tic-tac-toe-adversarial.git
 cd tic-tac-toe-adversarial
 
@@ -33,41 +33,41 @@ pip install -r requirements.txt
 # jupyter lab
 ```
 
-### Uso
+### Usage
 
 ```bash
-jupyter notebook notebooks/main.ipynb
+jupyter notebook notebooks/tic-tac-toe-minimax.ipynb
 ```
 
-## 🧪 Tests
+## Testing
 
 ```bash
 pytest tests/
 ```
 
-## 📁 Estructura del Proyecto
+## Project Structure
 
 ```
 tic-tac-toe-adversarial/
-├── src/              # Código fuente principal
-├── tests/            # Tests unitarios/integración
-├── docs/             # Documentación
-├── .github/          # Workflows CI/CD
+├── src/              # Main source code
+├── tests/            # Unit/integration tests
+├── docs/             # Documentation
+├── .github/          # CI/CD workflows
 └── README.md
 ```
 
-## 🛠️ Tech Stack
+## Tech Stack
 
-**Python**, NumPy, Pandas, Scikit-learn, Jupyter
+Python, NumPy, Jupyter
 
-## 📄 Licencia
+## License
 
-Este proyecto está bajo licencia **MIT** - ver [LICENSE](LICENSE) para detalles.
+This project is licensed under the **MIT License** - see [LICENSE](LICENSE) for details.
 
-## 👤 Autor
+## Author
 
 **J1u2a3n8** - [GitHub](https://github.com/J1u2a3n8) - [LinkedIn](https://linkedin.com/in/juanluiscanedo)
 
 ---
 
-⭐ Si este proyecto te fue útil, ¡dale una estrella!
+⭐ If you found this project useful, give it a star!
